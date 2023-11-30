@@ -1,0 +1,31 @@
+{
+  "name": "quicker-react",
+  "version": "1.0.0",
+  "description": "A CLI tool to quickly generate React component boilerplate code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node quicker-react.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/quicker-react.git"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "component",
+    "generator",
+    "boilerplate"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "bin": {
+    "quicker-react": "./quicker-react.js"
+  }
+}
